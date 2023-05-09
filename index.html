@@ -14,6 +14,9 @@
             li.my-list{
                 background-color: orange;
             }
+            div#new-div,li.newlist{
+                background-color: blue;
+            }
         </style>
     </head>
     <body>
@@ -63,6 +66,33 @@ background-color:orange;
                 <li class="my-list">I'm inside an li wiht a class of my-list</li>
                 <li class="my-list">I'm inside an li wiht a class of my-list</li>
                 <li class="my-list">I'm inside an li wiht a class of my-list</li>
+            </ul>
+           </div>
+        </fieldset>
+
+
+
+
+<fieldset>
+    <legend><a id="compound">compound</a></legend>
+    <p>compound selectors allow us to use more than one selector for a set of rules. The selectors must be seperated by a commas.</p>
+    <p>Here's how the CSS is applied to the element:</p>
+    <pre><code>li.my-list{
+background-color:orange;
+}</code></pre>
+
+
+    <p>Here's what it looks like:</p>
+    <div id="id-div">Inside my-div</div>
+</fieldset>
+
+            <p>Here's what it looks like:</p>
+            <div> id="new-div"> I am inside a div with </div>
+           <div>
+            <ul>
+                <li class="new-list">I'm inside an li wiht a class of new-list</li>
+                <li class="new-list">I'm inside an li wiht a class of new-list</li>
+                <li class="new-list">I'm inside an li wiht a class of new-list</li>
             </ul>
            </div>
         </fieldset>
